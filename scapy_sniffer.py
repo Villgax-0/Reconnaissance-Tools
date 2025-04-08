@@ -45,4 +45,4 @@ def process_packet(packet):
             except Exception as e:
                 print(f"{red}[!] Error decoding Raw data: {e}{reset}")
 
-sniff_packets("Wi-Fi")
+sniff_packets("Wi-Fi") #Select interface accordingly (For ex: eth)
