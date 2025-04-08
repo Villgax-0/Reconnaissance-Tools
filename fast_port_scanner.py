@@ -6,7 +6,7 @@ import requests
 usage = "python3 simple_port_scanner.py TARGET START_PORT END_PORT THREADS"
 
 print("*" * 50)
-print("Python Simple Port Scanner")
+print("Python fast Port Scanner")
 print("*" * 50)
 
 # Ensure correct number of arguments
