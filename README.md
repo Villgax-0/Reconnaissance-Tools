@@ -36,33 +36,28 @@ A collection of beginner-friendly but effective Python tools created to assist i
 ### Simple Port Scanner
 
 ```bash
-python3 simple_port_scanner.py <TARGET> <START_PORT> <END_PORT> <THREADS>
+python3 fast_port_scanner.py <TARGET> <START_PORT> <END_PORT> <THREADS>
 ```
 
 ### Network Discovery Tool
 
 ```bash
-python3 network_discovery.py <SUBNET>
+python3 network_scanner.py <SUBNET>
 # Example: 192.168.1.0/24
 ```
 
 ### Basic HTTP Sniffer
 
 ```bash
-python3 basic_http_sniffer.py <INTERFACE>
+python3 scapy_sniffer.py <INTERFACE>
 # Example: Wi-Fi or eth0
 ```
 
-### Advanced HTTP Packet Sniffer
-
-```bash
-python3 advanced_http_sniffer.py <INTERFACE>
-```
 
 ### Information Gathering Tool
 
 ```bash
-python3 info_gathering.py -d <DOMAIN> [-s <IP>] [-o <OUTPUT FILE>]
+python3 information_gather.py -d <DOMAIN> [-s <IP>] 
 ```
 
 > Use your own Shodan API key inside the script for Shodan lookups.
