@@ -63,7 +63,7 @@ except Exception as e:
 # Shodan Lookup
 if ip:
     print("[+] Getting info from Shodan for IP {}".format(ip))
-    api = shodan.Shodan("DQSRwVHTwAqZeeJzJezPQVpwfnfCREnm")  # Replace with actual API key
+    api = shodan.Shodan("API-KEY")  # Replace with actual API key of Shodan.
     try:
         results = api.host(ip)
         print("[+] IP: {}".format(results['ip_str']))
